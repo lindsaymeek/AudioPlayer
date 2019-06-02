@@ -1,0 +1,1 @@
+-c -mcpu=arm7tdmi -gdwarf-2 -MD -Wall -O2 -mapcs-frame -mthumb-interwork -funroll-loops -fexpensive-optimizations -fsigned-char -IC:\Keil\ARM\INC\Philips\ -DARM -Wa,-alhms="headend.lst" -o headend.o "headend.c"

@@ -1,0 +1,1 @@
+-T .\Target.ld -mthumb-interwork -Wl,-Ttext=0,-Tdata=0x40000000 -o headstream.elf "startup.o" "syscalls.o" "timing.o" "mmc.o" "ffs.o" "main.o" "serial.o" "headend.o" -lm

@@ -1,0 +1,1 @@
+-c -mcpu=arm7tdmi -mthumb -gdwarf-2 -MD -Wall -O2 -mapcs-frame -mthumb-interwork -funroll-loops -fexpensive-optimizations -fsigned-char -IC:\Keil\ARM\INC\Philips\ -DARM -Wa,-alhms="ffs.lst" -o ffs.o "FFs.c"
